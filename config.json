@@ -1,0 +1,6 @@
+{
+    "takeoff_alt": 5,
+    "square_side": 100,
+    "leg_time": 15,
+    "log_file": "track.csv"
+}
