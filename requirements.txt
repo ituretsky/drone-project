@@ -1,0 +1,10 @@
+dronekit==2.9.2
+fastcrc==0.3.6
+future==1.0.0
+lxml==6.1.1
+MAVProxy==1.8.74
+monotonic==1.6
+numpy==2.2.6
+pymavlink==2.4.49
+pynmeagps==1.1.5
+pyserial==3.5
