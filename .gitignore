@@ -3,4 +3,4 @@ drone_env/
 *.csv
 *.log
 *.png
-__pycashe__/
+__pycache__/
