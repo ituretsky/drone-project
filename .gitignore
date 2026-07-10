@@ -1,1 +1,6 @@
 drone_env/
+# Логи и временные файлы
+*.csv
+*.log
+*.png
+__pycashe__/
