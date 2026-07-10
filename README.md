@@ -1,8 +1,6 @@
 # Drone Programming Portfolio
 
-Портфолио инженера-разработчика БПЛА. Набор реализованных решений для управления мультироторными дронами в среде SITL, демонстрирующий владение стеком MAVLink/DroneKit и навыки анализа телеметрии.
-
-Разрабатываю и тестирую алгоритмы автономного управления БПЛА. Имею опыт работы с симуляцией, протоколами MAVLink и обработкой полётных данных. В настоящее время активно углубляю знания в C++ и архитектуре ArduPilot для перехода к embedded-разработке.
+Проекты по программированию автономных дронов на базе **ArduPilot SITL**, **DroneKit** и **ROS/Gazebo** (в перспективе).
 
 ---
 
@@ -29,6 +27,7 @@
 - Фоновый мониторинг телеметрии в реальном времени.
 
 **Запуск:**
+
 ```bash
 # Терминал 1 — симулятор (вне виртуального окружения)
 cd ~/ardupilot
@@ -38,6 +37,9 @@ sim_vehicle.py -v ArduCopter --map --console
 cd ~/drone_project
 source drone_env/bin/activate
 python3 mission_planner_mon.py
+```
+
+---
 
 ### 2. Анализатор полётных логов  
 **Файл:** `telemetry_analyzer.py`
@@ -50,17 +52,24 @@ python3 mission_planner_mon.py
 **Результат:** PNG-файлы с графиками.
 
 **Запуск:**
+
 ```bash
 cd ~/drone_project
 source drone_env/bin/activate
 python3 telemetry_analyzer.py
+```
+
+---
 
 ### 3. (В разработке) Автономный облёт препятствий
+
 **Планируется:** ROS + Gazebo + лидар, обход препятствий.
 
 ---
 
 ## 🗂️ Структура репозитория
+
+```
 drone_project/
 ├── mission_planner_mon.py    # Основной скрипт миссий с мониторингом
 ├── telemetry_analyzer.py     # Визуализация логов
@@ -68,6 +77,9 @@ drone_project/
 ├── requirements.txt          # Зависимости Python
 ├── .gitignore                # Игнорируемые файлы
 └── README.md                 # Этот файл
+```
+
+---
 
 ## 🚀 Планы по развитию
 
@@ -82,5 +94,5 @@ drone_project/
 
 ## 📬 Контакты
 
-Автор: [Турецкий]  
+Автор: [ваше имя]  
 GitHub: [ituretsky](https://github.com/ituretsky)
